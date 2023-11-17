@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <img src="" alt=""><title>Dicionário de formatação do HTML</title>
+
+    <style>
+        body{ 
+            background-color: whitesmoke;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            padding-left: 20px;  
+        }
+        h1 { 
+            padding-bottom: 10px;
+            color: rgb(53, 53, 53)    
+        }
+        h3{
+            color: rgb(53, 53, 53);
+        }
+        li {
+            display: inline-block;
+            padding: 5px;
+        }
+        li:hover {
+            background-color: skyblue;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        abbr {
+            color: blue;
+        }
+        img {
+        float: left
+        ;
+        }
+
+    </style>
+</head>
+<body>
+    <img src="dicionario.png" alt="">
+    <h1>Dicionário de formatação do HTML</h1>
+    
+<hr>
+
+    <nav>
+
+        <ul>
+        <a href="#nerito"><li>negrito</li></a>
+        <a href="#italico"><li>italico</li></a>
+        <a href="#sublinhado"><li>sublinhado</li></a>
+        <a href="#tachado"><li>tachado</li></a>
+        <a href="#marcado"><li>marcado</li></a>
+        <a href="#small"><li>small</li></a>
+        <a href="#subscrito"><li>subscrito</li></a>
+        <a href="#sobscrito"><li>sobscrito</li></a>
+        <a href="#quebra"><li>quebra</li></a>
+        <a href="#abreviacao"><li>abreviação</li></a>
+        <a href="#citacao"><li>citação</li></a>
+        <a href="#citbloco"><li>citação em bloco</li></a>
+        <a href="#endereco"><li>endereco</li></a>
+        <a href="#barraescalar"><li>barra escalar</li></a>
+        <a href="#barraprogresso"><li>barra de progresso</li></a>
+        </ul>                
+    </nav>
+
+<hr>
+
+    <h3 id="negrito">Negrito</h3>
+
+    <p>Para deixar um texto <strong>negrito</strong> é usado a tag <code>- estrong</code>.</p>
+
+    <h3 id="italico">Italico</h3>
+   
+    <p>Para deixar um texto <em>italico</em> é usado a tag <code> - em</code>.</p>
+
+    <h3 id="sublinhado">Sublinhado</h3>
+   
+    <p>Para deixar um texto <ins>sublinhado</ins> é usado a tag <code> - ins</code></p>
+
+    <h3 id="tachado">Tachado</h3>
+   
+    <p>Para deixar um texto <del>Tachado</del> é usado a tag <code>- del</code></p>
+
+    <h3 id="marcado">Marcado</h3>
+   
+    <p>Para deixar um texto <mark>marcado</mark> é usado a tag <code>- mark</code></p>
+
+    <h3 id="small">Small</h3>
+   
+    <p>Para deixar um texto <small>Small</small> é usado a tag <code>- small</code></p>
+
+    <h3 id="subscrito">Subscrito</h3>
+   
+    <p>Para deixar um texto <sub>subscrito</sub> é usado a tag <code>- sub</code></p>
+    
+    <h3 id="sobscrito">Sobscrito</h3>
+   
+    <p>Para deixar um texto <sup>sobscrito</sup> é usado a tag <code>- sup </code></p>
+
+    <h3 id="quebra">Quebra de linha</h3>
+   
+    <p>Para deixar um texto,<br>quebrado</br> é usado a tag <code>- Br</code></p>
+
+    <h3 id="abreviacao">abreviação</h3>
+   
+    <p>Para deixar um texto abreviado <abbr title="Cemtro Paula Sousa">cps</abbr> é usado a tag <code>- abbr</code></p>
+
+    <h3 id="citacao">Citação</h3>
+   
+    <p>Para citar alguem <q>exemplo</q> é usado a tag <code>- q</code></p>
+    
+    <h3 id="citbloco">Citação em Bloco</h3>
+   
+    <p>Para criar uma citação em bloco é usado a tag <code>- blockquote</code></p>
+
+    <blockquote cite="www.google.com">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti vel consectetur reprehenderit voluptates minus doloribus illo, officia iste quidem itaque, consequuntur cupiditate inventore expedita sit accusamus placeat? At, magni ipsum?</blockquote>
+
+    <h3 id="endereco">Endereço</h3>
+   
+    <p>Para indicar dados de contato <Address>Email: <a href="slanomepraisso@gmail.com">slanomepraisso@gmail.com</a> <br>Telefone: <a href="+5513996547">+5513996547</a> </Address> é usado a tag <code>- address</code></p>
+
+    <h3 id="barraescalar">Barra escalar</h3>
+   
+    <p>Para criar uma Barra escalar é usado a tag <code>- Meter</code></p>
+
+    O uso do disco local C: <br>
+    <meter value="5" min="0" max="10"></meter>
+
+    <h3 id="barraprogresso">Barra de progresso</h3>
+
+    <p>para se criar a barra de progresso é usado a tag <code>progress</code></p>
+
+    baixando: <progress value="70" max="100" ></progress>
+
+</body>
+</html>

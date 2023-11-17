@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    background-color: rgb(189, 189, 233);
+    flex-direction: row;
+    /*row muda as propriedes para bloco em linha
+    column muda em coluna*/
+    width: 100%;
+    display: flex;
+    /*muda a container na horizontal
+    start, end, center, space-around e space between*/
+    justify-content: space-around;
+    /*muda a conteiner na vertical
+    star, center e end*/
+    align-items: center;
+    flex-wrap: nowrap;
+    /* wrap e nowrap */
+}
+
+.filha {
+    display: flex;
+    background-color: rgb(0, 255, 200);
+    width: 20%;
+    height: 200px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
